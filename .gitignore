@@ -1,0 +1,17 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- 机器相关配置 ---
+# vaults.json 里是本机笔记库的绝对路径，各机器自行创建（缺省时脚本自动识别工作区）
+vaults.json
+
+# --- 整理过程产物 ---
+.note-staging/
+.figrender-tmp/
+
+# --- OS / 编辑器 ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
